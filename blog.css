@@ -1,0 +1,67 @@
+body{
+    font-family: dosis;
+
+}
+
+:root{
+  --det-color:   rgb(2, 39, 2);
+  --sec-color:    rgb(2, 35, 17);
+}
+
+
+
+.card1{
+    color: var(--det-color);
+    border-bottom: 5px solid rgb(1, 48, 21);
+}
+.back{
+    color: var(--sec-color);
+}
+
+.bottone{
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(4, 53, 29);
+    color: var(--sec-color);
+}
+
+.border{
+    border: 2px solid forestgreen;
+}
+
+.testo{
+    position: relative;
+}
+
+.testo::after {
+    position: absolute;
+    content: "";
+    bottom: -10%;
+    left: 0%;
+    width: 25%;
+    height: 10%;
+    background-color: var(--sec-color);
+}
+
+.botto{
+    background-color: var(--sec-color);
+}
+
+.posizione{
+    position: sticky;
+    top: 150px;
+    
+}
+
+.bg-image {
+    background-image: url(./images/undraw_World_re_768g.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .slide{
+    color: black;
+    
+  }
+
